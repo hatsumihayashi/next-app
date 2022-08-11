@@ -13,6 +13,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Image
+          src="/images/profile.png"
+          height={144}
+          width={144}
+          alt="Hatsumi Hayashi"
+        />
         <h1 className={styles.title}>
           Learn <a href="https://nextjs.org">Next.js!</a>
         </h1>
