@@ -4,6 +4,9 @@
 ## ローカル: 起動方法
 
 ```bash
+cp .env.sample .env.local
+// .env.localに必要な情報を記入
+
 yarn install
 yarn dev
 ```
